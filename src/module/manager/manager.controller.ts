@@ -73,7 +73,7 @@ export class ManagerController {
       };
     } else {
       return {
-        error_code: -1,
+        error_code: -2,
         message: '用户名或密码错误',
         data: {},
       };
